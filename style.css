@@ -91,3 +91,35 @@ header div {
     clear: both;
 
 }
+
+.card-wrapper-prj {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.card-prj {
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+.card-header-prj {
+    position: relative;
+}
+
+.card-header-prj h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    color: #fff;
+}
+
+.card-footer-prj {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-footer-prj img {
+    border-radius: 50%;
+}
